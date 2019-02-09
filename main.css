@@ -27,7 +27,8 @@ body {
  }
  .fixed-icons-frame {
 	height: 150px;
-	background: #e0ef0e
+   background: #e0ef0e;
+   display: flex;
  }
  .search-bar {
 	height: 130px;
@@ -38,7 +39,7 @@ body {
 	width: 50px;
  }
  .icon {
-	height: calc(950px / 5);
+	height: 150px;
 	width: calc(720px / 5);
  }
  .icon-line {
