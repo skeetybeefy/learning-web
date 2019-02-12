@@ -1,48 +1,74 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .screen {
-	background: #4E47F4;
-    height: 1280px;
-    width: 720px;
+  background-image: url("image1.jpg");
+  height: 1280px;
+  width: 720px;
  }
  .status-bar{
-    display: flex;
-    height: 50px;
-    justify-content: space-between;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
  }
  .status-bar-left {
-    background: lightgreen;
-    display: flex;
+  display: flex;
     
  }
  .status-bar-right {
-    background: lightgreen;
-    display: flex;
+  display: flex;
  }
  .icon-frame {
-	height: 950px;
-	background: #d8520f
+  height: 950px;
+  padding: 0px 25px 0px;
  }
  .fixed-icons-frame {
 	height: 150px;
-   background: #e0ef0e;
-   display: flex;
+  padding: 0px 25px 0px;
+  display: flex;
  }
  .search-bar {
 	height: 130px;
-	background: #c10eef
+  box-sizing: border-box;
+  padding: 25px 45px 10px;
+  display: flex;
  }
+ .search-bar-field {
+  width: 100%;
+  border-radius: calc(130px / 2);
+  background: white;
+ }
+ .search-bar-button {
+  height: 100%;
+  width: 65px;
+  margin-left: 10px;
+  position: relative;
+}
  .status-icon {
 	height: 50px;
 	width: 50px;
  }
+ .status-icon-time{
+  width: 100px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+ }
+ .icon-container {
+	height: 100%;
+  width: calc(720px / 5);
+  padding: 15px;
+  box-sizing: border-box;
+ }
  .icon {
-	height: 150px;
-	width: calc(720px / 5);
+  margin-bottom: 20px;
+}
+ .icon-text {
+  text-align: center;
  }
  .icon-line {
-    height: calc(950px / 5);
-    display: flex;
+  height: calc(950px / 5);
+  padding: 10px 0px 0px;
+  display: flex;
  }
